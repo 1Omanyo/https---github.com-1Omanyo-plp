@@ -1,5 +1,5 @@
 const express = require('express');
-const app = express();
+const mysql = require('mysql');
 const port = 3000;
 
 app.use(express.static('public'));
