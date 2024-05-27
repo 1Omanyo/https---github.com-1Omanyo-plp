@@ -6,8 +6,8 @@ const port = 3000;
 // Create a connection pool for MySQL
 const pool = mysql.createPool({
   host: 'localhost',
-  user: 'your_username',
-  password: 'your_password',
+  user: 'root',
+  password: '1Republic.',
   database: 'your_database',
   connectionLimit: 10,
 });
